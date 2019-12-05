@@ -1,0 +1,1068 @@
+Wire one: ["R1007", "D949", "R640", "D225", "R390", "D41", "R257", "D180", "L372", "U62", "L454", "U594", "L427", "U561", "R844", "D435", "L730", "U964", "L164", "U342", "R293", "D490", "L246", "U323", "L14", "D366", "L549", "U312", "L851", "U959", "L255", "U947", "L179", "U109", "R850", "D703", "L310", "U175", "L665", "U515", "R23", "D633", "L212", "U650", "R477", "U131", "L838", "D445", "R999", "D229", "L772", "U716", "L137", "U355", "R51", "D565", "L410", "D493", "L312", "U623", "L846", "D283", "R980", "U804", "L791", "U918", "L641", "U258", "R301", "U727", "L307", "U970", "L748", "U229", "L225", "U997", "L134", "D707", "L655", "D168", "L931", "D6", "R36", "D617", "L211", "D453", "L969", "U577", "R299", "D804", "R910", "D898", "R553", "U298", "L309", "D912", "R757", "U581", "R228", "U586", "L331", "D865", "R606", "D163", "R425", "U670", "R156", "U814", "L168", "D777", "R674", "D970", "L64", "U840", "L688", "U144", "L101", "U281", "L615", "D393", "R277", "U990", "L9", "U619", "L904", "D967", "L166", "U839", "L132", "U216", "R988", "U834", "R342", "U197", "L717", "U167", "L524", "U747", "L222", "U736", "L149", "D156", "L265", "U657", "L72", "D728", "L966", "U896", "R45", "D985", "R297", "U38", "R6", "D390", "L65", "D367", "R806", "U999", "L840", "D583", "R646", "U43", "L731", "D929", "L941", "D165", "R663", "U645", "L753", "U619", "R60", "D14", "L811", "D622", "L835", "U127", "L475", "D494", "R466", "U695", "R809", "U446", "R523", "D403", "R843", "U715", "L486", "D661", "L584", "U818", "L377", "D857", "L220", "U309", "R192", "U601", "R253", "D13", "L95", "U32", "L646", "D983", "R13", "U821", "L1", "U309", "L425", "U993", "L785", "U804", "L663", "U699", "L286", "U280", "R237", "U388", "L170", "D222", "L900", "U204", "R68", "D453", "R721", "U326", "L629", "D44", "R925", "D347", "R264", "D767", "L785", "U249", "R989", "D469", "L446", "D384", "L914", "U444", "R741", "U90", "R424", "U107", "R98", "U20", "R302", "U464", "L808", "D615", "R837", "U405", "L191", "D26", "R661", "D758", "L866", "D640", "L675", "U135", "R288", "D357", "R316", "D127", "R599", "U411", "R664", "D584", "L979", "D432", "R887", "D104", "R275", "D825", "L338", "D739", "R568", "D625", "L829", "D393", "L997", "D291", "L448", "D947", "L728", "U181", "L137", "D572", "L16", "U358", "R331", "D966", "R887", "D122", "L334", "D560", "R938", "D159", "R178", "D29", "L832", "D58", "R374"]
+Wire two: ["L993", "U121", "L882", "U500", "L740", "D222", "R574", "U947", "L541", "U949", "L219", "D492", "R108", "D621", "L875", "D715", "R274", "D858", "R510", "U668", "R677", "U327", "L284", "U537", "L371", "U810", "L360", "U333", "L926", "D144", "R162", "U750", "L741", "D360", "R792", "D256", "L44", "D893", "R969", "D996", "L905", "D524", "R538", "U141", "R70", "U347", "L383", "U74", "R893", "D560", "L39", "U447", "L205", "D783", "L244", "D40", "R374", "U507", "L946", "D934", "R962", "D138", "L584", "U562", "L624", "U69", "L77", "D137", "L441", "U671", "L849", "D283", "L742", "D459", "R105", "D265", "R312", "D734", "R47", "D369", "R676", "D429", "R160", "D814", "L881", "D830", "R395", "U598", "L413", "U817", "R855", "D377", "L338", "D413", "L294", "U321", "L714", "D217", "L15", "U341", "R342", "D480", "R660", "D11", "L192", "U518", "L654", "U13", "L984", "D866", "R877", "U801", "R413", "U66", "R269", "D750", "R294", "D143", "R929", "D786", "R606", "U816", "L562", "U938", "R484", "U32", "R136", "U30", "L393", "U209", "L838", "U451", "L387", "U413", "R518", "D9", "L847", "D605", "L8", "D805", "R348", "D174", "R865", "U962", "R926", "U401", "R445", "U720", "L843", "U785", "R287", "D656", "L489", "D465", "L192", "U68", "L738", "U962", "R384", "U288", "L517", "U396", "L955", "U556", "R707", "U329", "L589", "U604", "L583", "U457", "R545", "D504", "L521", "U711", "L232", "D329", "L110", "U167", "R311", "D234", "R284", "D984", "L778", "D295", "R603", "U349", "R942", "U81", "R972", "D505", "L301", "U422", "R840", "U689", "R225", "D780", "R379", "D200", "R57", "D781", "R166", "U245", "L865", "U790", "R654", "D127", "R125", "D363", "L989", "D976", "R993", "U702", "L461", "U165", "L747", "U656", "R617", "D115", "L783", "U187", "L462", "U838", "R854", "D516", "L978", "U846", "R203", "D46", "R833", "U393", "L322", "D17", "L160", "D278", "R919", "U611", "L59", "U709", "L472", "U871", "L377", "U111", "L612", "D177", "R712", "U628", "R858", "D54", "L612", "D303", "R205", "U430", "R494", "D306", "L474", "U848", "R816", "D104", "L967", "U886", "L866", "D366", "L120", "D735", "R694", "D335", "R399", "D198", "R132", "D787", "L749", "D612", "R525", "U163", "R660", "U316", "R482", "D412", "L376", "U170", "R891", "D202", "R408", "D333", "R842", "U965", "R955", "U440", "L26", "U747", "R447", "D8", "R319", "D188", "L532", "D39", "L863", "D599", "R307", "U253", "R22"]
+
+Max - Right: 2294, Left: -12783, Up: 12224, Down: -4664
+Intersection at (14251,13173)
+Intersection at (13938,12402)
+Intersection at (13938,12021)
+Intersection at (13821,11873)
+Intersection at (13807,11873)
+Intersection at (12152,10265)
+Intersection at (11871,10265)
+Intersection at (11659,10047)
+Intersection at (11848,10047)
+Intersection at (11871,10047)
+Intersection at (12152,10047)
+Intersection at (12297,10265)
+Intersection at (11659,10276)
+Intersection at (11871,10276)
+Intersection at (12152,10276)
+Intersection at (11525,9602)
+Intersection at (11525,10047)
+Intersection at (11439,9560)
+Intersection at (11439,9602)
+Intersection at (11298,9770)
+Intersection at (10717,9923)
+Intersection at (5875,6971)
+Intersection at (7029,8096)
+Intersection at (7786,8408)
+Intersection at (8870,7864)
+Intersection at (8714,7994)
+Intersection at (8014,7569)
+Intersection at (8014,7962)
+Intersection at (8185,7569)
+Intersection at (7962,5727)
+Intersection at (5434,3811)
+Intersection at (6478,3740)
+Intersection at (6355,3620)
+Intersection at (6427,3620)
+Intersection at (5638,3811)
+Intersection at (5638,3900)
+Intersection at (5737,4203)
+Intersection at (5638,4160)
+Intersection at (5737,4160)
+Intersection at (5275,5089)
+Intersection at (4522,4004)
+Intersection at (2927,4499)
+Intersection at (4259,4004)
+Intersection at (4522,4255)
+Intersection at (4259,4201)
+Intersection at (4522,4201)
+Intersection at (4032,3852)
+Intersection at (4032,4004)
+Intersection at (3785,3330)
+Intersection at (3151,3311)
+Intersection at (227,222)
+Intersection at (948,222)
+Intersection at (948,189)
+Intersection at (1059,189)
+Intersection at (1229,189)
+Intersection at (1278,1303)
+Intersection at (1278,1054)
+Intersection at (1508,1054)
+Intersection at (1712,1367)
+Intersection at (1517,1367)
+Intersection at (1712,1246)
+Intersection at (1278,782)
+Intersection at (1508,782)
+Intersection at (1109,1054)
+Intersection at (1109,1303)
+Intersection at (1109,1373)
+Intersection at (1712,1397)
+Intersection at (1941,1397)
+Intersection at (1917,992)
+Intersection at (1917,1018)
+Intersection at (1946,1018)
+Intersection at (1941,1776)
+Intersection at (1163,2416)
+Intersection at (2726,2354)
+Intersection at (2726,2938)
+Intersection at (2587,4499)
+Intersection at (2587,4993)
+Intersection at (16,7327)
+Intersection at (10742,11603)
+Intersection at (10676,11825)
+Intersection at (10392,11603)
+Intersection at (10021,10421)
+Intersection at (10021,11042)
+Intersection at (9982,10273)
+Intersection at (8897,9940)
+Intersection at (8897,9694)
+Intersection at (8948,9940)
+Intersection at (9873,11042)
+Intersection at (9489,11839)
+Intersection at (9489,12363)
+Intersection at (9489,11875)
+Intersection at (9193,11839)
+Intersection at (9489,11801)
+Intersection at (9873,11801)
+Intersection at (10086,11947)
+Intersection at (10047,11947)
+Intersection at (9842,12615)
+Intersection at (9972,12615)
+Intersection at (9489,12230)
+Intersection at (9506,12230)
+Intersection at (9842,12230)
+Intersection at (9026,12363)
+Intersection at (9404,13164)
+Intersection at (9026,12740)
+Intersection at (7090,15722)
+Intersection at (7589,15490)
+Intersection at (7295,15490)
+Intersection at (7072,15374)
+Intersection at (6908,15374)
+Intersection at (7090,15730)
+Intersection at (7485,15730)
+Intersection at (7485,15741)
+Intersection at (7376,15490)
+Intersection at (7376,15695)
+Intersection at (7376,15722)
+Intersection at (7376,15730)
+Intersection at (7072,15223)
+Intersection at (6615,15374)
+Intersection at (6908,15275)
+Intersection at (7028,15223)
+Intersection at (7072,15209)
+Intersection at (7297,15223)
+Intersection at (7297,15490)
+Intersection at (7297,15695)
+Intersection at (7297,15722)
+Intersection at (7297,15730)
+Intersection at (7485,15959)
+Intersection at (7971,14863)
+Intersection at (7953,14676)
+Intersection at (7811,14412)
+Intersection at (7566,14247)
+Intersection at (7566,14008)
+Intersection at (7237,14247)
+Intersection at (7229,14905)
+Intersection at (7229,15209)
+Intersection at (7229,15223)
+Intersection at (7229,15374)
+Intersection at (7295,15418)
+Intersection at (7297,15418)
+Intersection at (7376,15418)
+Intersection at (7577,15490)
+Intersection at (7589,15592)
+Intersection at (8442,14863)
+Intersection at (8970,12740)
+Intersection at (9026,12724)
+Intersection at (9257,12740)
+Intersection at (9257,13164)
+Intersection at (8970,13380)
+Intersection at (7705,12137)
+Intersection at (6830,10642)
+Intersection at (6309,10185)
+Intersection at (6309,10642)
+Intersection at (6077,10140)
+Intersection at (6285,10374)
+Intersection at (6309,10374)
+Intersection at (6562,10642)
+Intersection at (6562,10689)
+Intersection at (6387,11358)
+Intersection at (6562,11304)
+Intersection at (7329,11246)
+Intersection at (8301,11306)
+Intersection at (8904,10617)
+Intersection at (9065,10843)
+Intersection at (9215,11397)
+Intersection at (9501,11801)
+Intersection at (9501,11839)
+Intersection at (9501,11875)
+Intersection at (9501,12230)
+Intersection at (9501,12363)
+Intersection at (9667,12230)
+Intersection at (8968,12133)
+Intersection at (9489,12133)
+Intersection at (9501,12133)
+Intersection at (9576,12133)
+Intersection at (9065,11343)
+Intersection at (9215,11343)
+Intersection at (9581,11801)
+Intersection at (8802,11833)
+Intersection at (9193,11833)
+Intersection at (9489,11833)
+Intersection at (9501,11833)
+Intersection at (8592,12808)
+Intersection at (8970,12809)
+Intersection at (9026,12809)
+Intersection at (9257,12809)
+Intersection at (9404,12809)
+Intersection at (9585,12133)
+Intersection at (9585,12230)
+Intersection at (9585,12378)
+Intersection at (9585,12615)
+Intersection at (9489,12107)
+Intersection at (9501,12107)
+Intersection at (9576,12107)
+Intersection at (8592,11942)
+Intersection at (8802,11942)
+Intersection at (8968,11942)
+Intersection at (8377,11306)
+Intersection at (8840,11286)
+Intersection at (8994,11343)
+Intersection at (8301,11401)
+Intersection at (8377,11401)
+Intersection at (8802,11401)
+Intersection at (8211,11223)
+Intersection at (8211,11306)
+Intersection at (7749,10892)
+Intersection at (8661,9994)
+Intersection at (8735,9994)
+Intersection at (8897,9994)
+Intersection at (8904,9994)
+Intersection at (9098,9940)
+Intersection at (8567,7850)
+Intersection at (8567,8571)
+Intersection at (8523,7803)
+Intersection at (7683,7692)
+Intersection at (7908,7692)
+Intersection at (8014,7692)
+Intersection at (8185,7692)
+Intersection at (7683,7869)
+Intersection at (7908,7869)
+Intersection at (8014,7869)
+Intersection at (8185,7869)
+Intersection at (8290,7569)
+Intersection at (8290,7803)
+Intersection at (8702,7241)
+Intersection at (8870,7241)
+Intersection at (8702,7295)
+Intersection at (8870,7295)
+Intersection at (8702,7598)
+Intersection at (8741,7241)
+Intersection at (8741,7295)
+Intersection at (8870,7168)
+Intersection at (8870,7474)
+Intersection at (8761,7087)
+Intersection at (8761,7168)
+Intersection at (8761,7241)
+Intersection at (8761,7295)
+Intersection at (9413,6626)
+Intersection at (8761,6730)
+Intersection at (9413,6730)
+Intersection at (8610,6017)
+Intersection at (7962,5844)
+Intersection at (8440,5844)
+Intersection at (7624,6265)
+Intersection at (7624,6353)
+Intersection at (8176,6945)
+Intersection at (8318,7241)
+Intersection at (8702,7280)
+Intersection at (8717,7295)
+Intersection at (8741,7478)
+Intersection at (8849,7864)
+Intersection at (8849,7901)
+Intersection at (8849,7994)
+Intersection at (8567,8265)
+Intersection at (8714,8265)
+Intersection at (8100,8408)
+Intersection at (9039,8714)
+Intersection at (9312,8398)
+Intersection at (9376,8398)
+Intersection at (9767,8640)
+Intersection at (10060,8640)
+Intersection at (10690,9119)
+Intersection at (10851,9175)
+Intersection at (12461,7258)
+
+["R1007","D949","R640","D225","R390","D41","R257","D180","L372","U62","L454","U594","L427","U561","R844","D435","L730","U964","L164","U342","R293","D490","L246","U323","L14","D366","L549","U312","L851","U959","L255","U947","L179","U109","R850","D703","L310","U175","L665","U515","R23","D633","L212","U650","R477","U131","L838","D445","R999","D229","L772","U716","L137","U355","R51","D565","L410","D493","L312","U623","L846","D283","R980","U804","L791","U918","L641","U258","R301","U727","L307","U970","L748","U229","L225","U997","L134","D707","L655","D168","L931","D6","R36","D617","L211","D453","L969","U577","R299","D804","R910","D898","R553","U298","L309","D912","R757","U581","R228","U586","L331","D865","R606","D163","R425","U670","R156","U814","L168","D777","R674","D970","L64","U840","L688","U144","L101","U281","L615","D393","R277","U990","L9","U619","L904","D967","L166","U839","L132","U216","R988","U834","R342","U197","L717","U167","L524","U747","L222","U736","L149","D156","L265","U657","L72","D728","L966","U896","R45","D985","R297","U38","R6","D390","L65","D367","R806","U999","L840","D583","R646","U43","L731","D929","L941","D165","R663","U645","L753","U619","R60","D14","L811","D622","L835","U127","L475","D494","R466","U695","R809","U446","R523","D403","R843","U715","L486","D661","L584","U818","L377","D857","L220","U309","R192","U601","R253","D13","L95","U32","L646","D983","R13","U821","L1","U309","L425","U993","L785","U804","L663","U699","L286","U280","R237","U388","L170","D222","L900","U204","R68","D453","R721","U326","L629","D44","R925","D347","R264","D767","L785","U249","R989","D469","L446","D384","L914","U444","R741","U90","R424","U107","R98","U20","R302","U464","L808","D615","R837","U405","L191","D26","R661","D758","L866","D640","L675","U135","R288","D357","R316","D127","R599","U411","R664","D584","L979","D432","R887","D104","R275","D825","L338","D739","R568","D625","L829","D393","L997","D291","L448","D947","L728","U181","L137","D572","L16","U358","R331","D966","R887","D122","L334","D560","R938","D159","R178","D29","L832","D58","R374"]
+
+
+["L993","U121","L882","U500","L740","D222","R574","U947","L541","U949","L219","D492","R108","D621","L875","D715","R274","D858","R510","U668","R677","U327","L284","U537","L371","U810","L360","U333","L926","D144","R162","U750","L741","D360","R792","D256","L44","D893","R969","D996","L905","D524","R538","U141","R70","U347","L383","U74","R893","D560","L39","U447","L205","D783","L244","D40","R374","U507","L946","D934","R962","D138","L584","U562","L624","U69","L77","D137","L441","U671","L849","D283","L742","D459","R105","D265","R312","D734","R47","D369","R676","D429","R160","D814","L881","D830","R395","U598","L413","U817","R855","D377","L338","D413","L294","U321","L714","D217","L15","U341","R342","D480","R660","D11","L192","U518","L654","U13","L984","D866","R877","U801","R413","U66","R269","D750","R294","D143","R929","D786","R606","U816","L562","U938","R484","U32","R136","U30","L393","U209","L838","U451","L387","U413","R518","D9","L847","D605","L8","D805","R348","D174","R865","U962","R926","U401","R445","U720","L843","U785","R287","D656","L489","D465","L192","U68","L738","U962","R384","U288","L517","U396","L955","U556","R707","U329","L589","U604","L583","U457","R545","D504","L521","U711","L232","D329","L110","U167","R311","D234","R284","D984","L778","D295","R603","U349","R942","U81","R972","D505","L301","U422","R840","U689","R225","D780","R379","D200","R57","D781","R166","U245","L865","U790","R654","D127","R125","D363","L989","D976","R993","U702","L461","U165","L747","U656","R617","D115","L783","U187","L462","U838","R854","D516","L978","U846","R203","D46","R833","U393","L322","D17","L160","D278","R919","U611","L59","U709","L472","U871","L377","U111","L612","D177","R712","U628","R858","D54","L612","D303","R205","U430","R494","D306","L474","U848","R816","D104","L967","U886","L866","D366","L120","D735","R694","D335","R399","D198","R132","D787","L749","D612","R525","U163","R660","U316","R482","D412","L376","U170","R891","D202","R408","D333","R842","U965","R955","U440","L26","U747","R447","D8","R319","D188","L532","D39","L863","D599","R307","U253","R22"]
+
+Grid after:
+
+Intersections: [{:x=>948, :y=>189}, {:x=>1059, :y=>189}, {:x=>1229, :y=>189}, {:x=>227, :y=>222}, {:x=>948, :y=>222}, {:x=>1278, :y=>782}, {:x=>1508, :y=>782}, {:x=>1917, :y=>992}, {:x=>1917, :y=>1018}, {:x=>1946, :y=>1018}, {:x=>1109, :y=>1054}, {:x=>1278, :y=>1054}, {:x=>1508, :y=>1054}, {:x=>1712, :y=>1246}, {:x=>1109, :y=>1303}, {:x=>1278, :y=>1303}, {:x=>1517, :y=>1367}, {:x=>1712, :y=>1367}, {:x=>1109, :y=>1373}, {:x=>1712, :y=>1397}, {:x=>1941, :y=>1397}, {:x=>1941, :y=>1776}, {:x=>2726, :y=>2354}, {:x=>1163, :y=>2416}, {:x=>2726, :y=>2938}, {:x=>3151, :y=>3311}, {:x=>3785, :y=>3330}, {:x=>6355, :y=>3620}, {:x=>6427, :y=>3620}, {:x=>6478, :y=>3740}, {:x=>5434, :y=>3811}, {:x=>5638, :y=>3811}, {:x=>4032, :y=>3852}, {:x=>5638, :y=>3900}, {:x=>4032, :y=>4004}, {:x=>4259, :y=>4004}, {:x=>4522, :y=>4004}, {:x=>5638, :y=>4160}, {:x=>5737, :y=>4160}, {:x=>4259, :y=>4201}, {:x=>4522, :y=>4201}, {:x=>5737, :y=>4203}, {:x=>4522, :y=>4255}, {:x=>2587, :y=>4499}, {:x=>2927, :y=>4499}, {:x=>2587, :y=>4993}, {:x=>5275, :y=>5089}, {:x=>7962, :y=>5727}, {:x=>7962, :y=>5844}, {:x=>8440, :y=>5844}, {:x=>8610, :y=>6017}, {:x=>7624, :y=>6265}, {:x=>7624, :y=>6353}, {:x=>9413, :y=>6626}, {:x=>8761, :y=>6730}, {:x=>9413, :y=>6730}, {:x=>8176, :y=>6945}, {:x=>5875, :y=>6971}, {:x=>8761, :y=>7087}, {:x=>8761, :y=>7168}, {:x=>8870, :y=>7168}, {:x=>8318, :y=>7241}, {:x=>8702, :y=>7241}, {:x=>8741, :y=>7241}, {:x=>8761, :y=>7241}, {:x=>8870, :y=>7241}, {:x=>12461, :y=>7258}, {:x=>8702, :y=>7280}, {:x=>8702, :y=>7295}, {:x=>8717, :y=>7295}, {:x=>8741, :y=>7295}, {:x=>8761, :y=>7295}, {:x=>8870, :y=>7295}, {:x=>16, :y=>7327}, {:x=>8870, :y=>7474}, {:x=>8741, :y=>7478}, {:x=>8014, :y=>7569}, {:x=>8185, :y=>7569}, {:x=>8290, :y=>7569}, {:x=>8702, :y=>7598}, {:x=>7683, :y=>7692}, {:x=>7908, :y=>7692}, {:x=>8014, :y=>7692}, {:x=>8185, :y=>7692}, {:x=>8290, :y=>7803}, {:x=>8523, :y=>7803}, {:x=>8567, :y=>7850}, {:x=>8849, :y=>7864}, {:x=>8870, :y=>7864}, {:x=>7683, :y=>7869}, {:x=>7908, :y=>7869}, {:x=>8014, :y=>7869}, {:x=>8185, :y=>7869}, {:x=>8849, :y=>7901}, {:x=>8014, :y=>7962}, {:x=>8714, :y=>7994}, {:x=>8849, :y=>7994}, {:x=>7029, :y=>8096}, {:x=>8567, :y=>8265}, {:x=>8714, :y=>8265}, {:x=>9312, :y=>8398}, {:x=>9376, :y=>8398}, {:x=>7786, :y=>8408}, {:x=>8100, :y=>8408}, {:x=>8567, :y=>8571}, {:x=>9767, :y=>8640}, {:x=>10060, :y=>8640}, {:x=>9039, :y=>8714}, {:x=>10690, :y=>9119}, {:x=>10851, :y=>9175}, {:x=>11439, :y=>9560}, {:x=>11439, :y=>9602}, {:x=>11525, :y=>9602}, {:x=>8897, :y=>9694}, {:x=>11298, :y=>9770}, {:x=>10717, :y=>9923}, {:x=>8897, :y=>9940}, {:x=>8948, :y=>9940}, {:x=>9098, :y=>9940}, {:x=>8661, :y=>9994}, {:x=>8735, :y=>9994}, {:x=>8897, :y=>9994}, {:x=>8904, :y=>9994}, {:x=>11525, :y=>10047}, {:x=>11659, :y=>10047}, {:x=>11848, :y=>10047}, {:x=>11871, :y=>10047}, {:x=>12152, :y=>10047}, {:x=>6077, :y=>10140}, {:x=>6309, :y=>10185}, {:x=>11871, :y=>10265}, {:x=>12152, :y=>10265}, {:x=>12297, :y=>10265}, {:x=>9982, :y=>10273}, {:x=>11659, :y=>10276}, {:x=>11871, :y=>10276}, {:x=>12152, :y=>10276}, {:x=>6285, :y=>10374}, {:x=>6309, :y=>10374}, {:x=>10021, :y=>10421}, {:x=>8904, :y=>10617}, {:x=>6309, :y=>10642}, {:x=>6562, :y=>10642}, {:x=>6830, :y=>10642}, {:x=>6562, :y=>10689}, {:x=>9065, :y=>10843}, {:x=>7749, :y=>10892}, {:x=>9873, :y=>11042}, {:x=>10021, :y=>11042}, {:x=>8211, :y=>11223}, {:x=>7329, :y=>11246}, {:x=>8840, :y=>11286}, {:x=>6562, :y=>11304}, {:x=>8211, :y=>11306}, {:x=>8301, :y=>11306}, {:x=>8377, :y=>11306}, {:x=>8994, :y=>11343}, {:x=>9065, :y=>11343}, {:x=>9215, :y=>11343}, {:x=>6387, :y=>11358}, {:x=>9215, :y=>11397}, {:x=>8301, :y=>11401}, {:x=>8377, :y=>11401}, {:x=>8802, :y=>11401}, {:x=>10392, :y=>11603}, {:x=>10742, :y=>11603}, {:x=>9489, :y=>11801}, {:x=>9501, :y=>11801}, {:x=>9581, :y=>11801}, {:x=>9873, :y=>11801}, {:x=>10676, :y=>11825}, {:x=>8802, :y=>11833}, {:x=>9193, :y=>11833}, {:x=>9489, :y=>11833}, {:x=>9501, :y=>11833}, {:x=>9193, :y=>11839}, {:x=>9489, :y=>11839}, {:x=>9501, :y=>11839}, {:x=>13807, :y=>11873}, {:x=>13821, :y=>11873}, {:x=>9489, :y=>11875}, {:x=>9501, :y=>11875}, {:x=>8592, :y=>11942}, {:x=>8802, :y=>11942}, {:x=>8968, :y=>11942}, {:x=>10047, :y=>11947}, {:x=>10086, :y=>11947}, {:x=>13938, :y=>12021}, {:x=>9489, :y=>12107}, {:x=>9501, :y=>12107}, {:x=>9576, :y=>12107}, {:x=>8968, :y=>12133}, {:x=>9489, :y=>12133}, {:x=>9501, :y=>12133}, {:x=>9576, :y=>12133}, {:x=>9585, :y=>12133}, {:x=>7705, :y=>12137}, {:x=>9489, :y=>12230}, {:x=>9501, :y=>12230}, {:x=>9506, :y=>12230}, {:x=>9585, :y=>12230}, {:x=>9667, :y=>12230}, {:x=>9842, :y=>12230}, {:x=>9026, :y=>12363}, {:x=>9489, :y=>12363}, {:x=>9501, :y=>12363}, {:x=>9585, :y=>12378}, {:x=>13938, :y=>12402}, {:x=>9585, :y=>12615}, {:x=>9842, :y=>12615}, {:x=>9972, :y=>12615}, {:x=>9026, :y=>12724}, {:x=>8970, :y=>12740}, {:x=>9026, :y=>12740}, {:x=>9257, :y=>12740}, {:x=>8592, :y=>12808}, {:x=>8970, :y=>12809}, {:x=>9026, :y=>12809}, {:x=>9257, :y=>12809}, {:x=>9404, :y=>12809}, {:x=>9257, :y=>13164}, {:x=>9404, :y=>13164}, {:x=>14251, :y=>13173}, {:x=>8970, :y=>13380}, {:x=>7566, :y=>14008}, {:x=>7237, :y=>14247}, {:x=>7566, :y=>14247}, {:x=>7811, :y=>14412}, {:x=>7953, :y=>14676}, {:x=>7971, :y=>14863}, {:x=>8442, :y=>14863}, {:x=>7229, :y=>14905}, {:x=>7072, :y=>15209}, {:x=>7229, :y=>15209}, {:x=>7028, :y=>15223}, {:x=>7072, :y=>15223}, {:x=>7229, :y=>15223}, {:x=>7297, :y=>15223}, {:x=>6908, :y=>15275}, {:x=>6615, :y=>15374}, {:x=>6908, :y=>15374}, {:x=>7072, :y=>15374}, {:x=>7229, :y=>15374}, {:x=>7295, :y=>15418}, {:x=>7297, :y=>15418}, {:x=>7376, :y=>15418}, {:x=>7295, :y=>15490}, {:x=>7297, :y=>15490}, {:x=>7376, :y=>15490}, {:x=>7577, :y=>15490}, {:x=>7589, :y=>15490}, {:x=>7589, :y=>15592}, {:x=>7297, :y=>15695}, {:x=>7376, :y=>15695}, {:x=>7090, :y=>15722}, {:x=>7297, :y=>15722}, {:x=>7376, :y=>15722}, {:x=>7090, :y=>15730}, {:x=>7297, :y=>15730}, {:x=>7376, :y=>15730}, {:x=>7485, :y=>15730}, {:x=>7485, :y=>15741}, {:x=>7485, :y=>15959}]
+Origin: (12783,12224)
+Checking point (948,189)
+Distance: 23870
+
+Checking point (1059,189)
+Distance: 23759
+
+Checking point (1229,189)
+Distance: 23589
+
+Checking point (227,222)
+Distance: 24558
+
+Checking point (948,222)
+Distance: 23837
+
+Checking point (1278,782)
+Distance: 22947
+
+Checking point (1508,782)
+Distance: 22717
+
+Checking point (1917,992)
+Distance: 22098
+
+Checking point (1917,1018)
+Distance: 22072
+
+Checking point (1946,1018)
+Distance: 22043
+
+Checking point (1109,1054)
+Distance: 22844
+
+Checking point (1278,1054)
+Distance: 22675
+
+Checking point (1508,1054)
+Distance: 22445
+
+Checking point (1712,1246)
+Distance: 22049
+
+Checking point (1109,1303)
+Distance: 22595
+
+Checking point (1278,1303)
+Distance: 22426
+
+Checking point (1517,1367)
+Distance: 22123
+
+Checking point (1712,1367)
+Distance: 21928
+
+Checking point (1109,1373)
+Distance: 22525
+
+Checking point (1712,1397)
+Distance: 21898
+
+Checking point (1941,1397)
+Distance: 21669
+
+Checking point (1941,1776)
+Distance: 21290
+
+Checking point (2726,2354)
+Distance: 19927
+
+Checking point (1163,2416)
+Distance: 21428
+
+Checking point (2726,2938)
+Distance: 19343
+
+Checking point (3151,3311)
+Distance: 18545
+
+Checking point (3785,3330)
+Distance: 17892
+
+Checking point (6355,3620)
+Distance: 15032
+
+Checking point (6427,3620)
+Distance: 14960
+
+Checking point (6478,3740)
+Distance: 14789
+
+Checking point (5434,3811)
+Distance: 15762
+
+Checking point (5638,3811)
+Distance: 15558
+
+Checking point (4032,3852)
+Distance: 17123
+
+Checking point (5638,3900)
+Distance: 15469
+
+Checking point (4032,4004)
+Distance: 16971
+
+Checking point (4259,4004)
+Distance: 16744
+
+Checking point (4522,4004)
+Distance: 16481
+
+Checking point (5638,4160)
+Distance: 15209
+
+Checking point (5737,4160)
+Distance: 15110
+
+Checking point (4259,4201)
+Distance: 16547
+
+Checking point (4522,4201)
+Distance: 16284
+
+Checking point (5737,4203)
+Distance: 15067
+
+Checking point (4522,4255)
+Distance: 16230
+
+Checking point (2587,4499)
+Distance: 17921
+
+Checking point (2927,4499)
+Distance: 17581
+
+Checking point (2587,4993)
+Distance: 17427
+
+Checking point (5275,5089)
+Distance: 14643
+
+Checking point (7962,5727)
+Distance: 11318
+
+Checking point (7962,5844)
+Distance: 11201
+
+Checking point (8440,5844)
+Distance: 10723
+
+Checking point (8610,6017)
+Distance: 10380
+
+Checking point (7624,6265)
+Distance: 11118
+
+Checking point (7624,6353)
+Distance: 11030
+
+Checking point (9413,6626)
+Distance: 8968
+
+Checking point (8761,6730)
+Distance: 9516
+
+Checking point (9413,6730)
+Distance: 8864
+
+Checking point (8176,6945)
+Distance: 9886
+
+Checking point (5875,6971)
+Distance: 12161
+
+Checking point (8761,7087)
+Distance: 9159
+
+Checking point (8761,7168)
+Distance: 9078
+
+Checking point (8870,7168)
+Distance: 8969
+
+Checking point (8318,7241)
+Distance: 9448
+
+Checking point (8702,7241)
+Distance: 9064
+
+Checking point (8741,7241)
+Distance: 9025
+
+Checking point (8761,7241)
+Distance: 9005
+
+Checking point (8870,7241)
+Distance: 8896
+
+Checking point (12461,7258)
+Distance: 5288
+
+Checking point (8702,7280)
+Distance: 9025
+
+Checking point (8702,7295)
+Distance: 9010
+
+Checking point (8717,7295)
+Distance: 8995
+
+Checking point (8741,7295)
+Distance: 8971
+
+Checking point (8761,7295)
+Distance: 8951
+
+Checking point (8870,7295)
+Distance: 8842
+
+Checking point (16,7327)
+Distance: 17664
+
+Checking point (8870,7474)
+Distance: 8663
+
+Checking point (8741,7478)
+Distance: 8788
+
+Checking point (8014,7569)
+Distance: 9424
+
+Checking point (8185,7569)
+Distance: 9253
+
+Checking point (8290,7569)
+Distance: 9148
+
+Checking point (8702,7598)
+Distance: 8707
+
+Checking point (7683,7692)
+Distance: 9632
+
+Checking point (7908,7692)
+Distance: 9407
+
+Checking point (8014,7692)
+Distance: 9301
+
+Checking point (8185,7692)
+Distance: 9130
+
+Checking point (8290,7803)
+Distance: 8914
+
+Checking point (8523,7803)
+Distance: 8681
+
+Checking point (8567,7850)
+Distance: 8590
+
+Checking point (8849,7864)
+Distance: 8294
+
+Checking point (8870,7864)
+Distance: 8273
+
+Checking point (7683,7869)
+Distance: 9455
+
+Checking point (7908,7869)
+Distance: 9230
+
+Checking point (8014,7869)
+Distance: 9124
+
+Checking point (8185,7869)
+Distance: 8953
+
+Checking point (8849,7901)
+Distance: 8257
+
+Checking point (8014,7962)
+Distance: 9031
+
+Checking point (8714,7994)
+Distance: 8299
+
+Checking point (8849,7994)
+Distance: 8164
+
+Checking point (7029,8096)
+Distance: 9882
+
+Checking point (8567,8265)
+Distance: 8175
+
+Checking point (8714,8265)
+Distance: 8028
+
+Checking point (9312,8398)
+Distance: 7297
+
+Checking point (9376,8398)
+Distance: 7233
+
+Checking point (7786,8408)
+Distance: 8813
+
+Checking point (8100,8408)
+Distance: 8499
+
+Checking point (8567,8571)
+Distance: 7869
+
+Checking point (9767,8640)
+Distance: 6600
+
+Checking point (10060,8640)
+Distance: 6307
+
+Checking point (9039,8714)
+Distance: 7254
+
+Checking point (10690,9119)
+Distance: 5198
+
+Checking point (10851,9175)
+Distance: 4981
+
+Checking point (11439,9560)
+Distance: 4008
+
+Checking point (11439,9602)
+Distance: 3966
+
+Checking point (11525,9602)
+Distance: 3880
+
+Checking point (8897,9694)
+Distance: 6416
+
+Checking point (11298,9770)
+Distance: 3939
+
+Checking point (10717,9923)
+Distance: 4367
+
+Checking point (8897,9940)
+Distance: 6170
+
+Checking point (8948,9940)
+Distance: 6119
+
+Checking point (9098,9940)
+Distance: 5969
+
+Checking point (8661,9994)
+Distance: 6352
+
+Checking point (8735,9994)
+Distance: 6278
+
+Checking point (8897,9994)
+Distance: 6116
+
+Checking point (8904,9994)
+Distance: 6109
+
+Checking point (11525,10047)
+Distance: 3435
+
+Checking point (11659,10047)
+Distance: 3301
+
+Checking point (11848,10047)
+Distance: 3112
+
+Checking point (11871,10047)
+Distance: 3089
+
+Checking point (12152,10047)
+Distance: 2808
+
+Checking point (6077,10140)
+Distance: 8790
+
+Checking point (6309,10185)
+Distance: 8513
+
+Checking point (11871,10265)
+Distance: 2871
+
+Checking point (12152,10265)
+Distance: 2590
+
+Checking point (12297,10265)
+Distance: 2445
+
+Checking point (9982,10273)
+Distance: 4752
+
+Checking point (11659,10276)
+Distance: 3072
+
+Checking point (11871,10276)
+Distance: 2860
+
+Checking point (12152,10276)
+Distance: 2579
+
+Checking point (6285,10374)
+Distance: 8348
+
+Checking point (6309,10374)
+Distance: 8324
+
+Checking point (10021,10421)
+Distance: 4565
+
+Checking point (8904,10617)
+Distance: 5486
+
+Checking point (6309,10642)
+Distance: 8056
+
+Checking point (6562,10642)
+Distance: 7803
+
+Checking point (6830,10642)
+Distance: 7535
+
+Checking point (6562,10689)
+Distance: 7756
+
+Checking point (9065,10843)
+Distance: 5099
+
+Checking point (7749,10892)
+Distance: 6366
+
+Checking point (9873,11042)
+Distance: 4092
+
+Checking point (10021,11042)
+Distance: 3944
+
+Checking point (8211,11223)
+Distance: 5573
+
+Checking point (7329,11246)
+Distance: 6432
+
+Checking point (8840,11286)
+Distance: 4881
+
+Checking point (6562,11304)
+Distance: 7141
+
+Checking point (8211,11306)
+Distance: 5490
+
+Checking point (8301,11306)
+Distance: 5400
+
+Checking point (8377,11306)
+Distance: 5324
+
+Checking point (8994,11343)
+Distance: 4670
+
+Checking point (9065,11343)
+Distance: 4599
+
+Checking point (9215,11343)
+Distance: 4449
+
+Checking point (6387,11358)
+Distance: 7262
+
+Checking point (9215,11397)
+Distance: 4395
+
+Checking point (8301,11401)
+Distance: 5305
+
+Checking point (8377,11401)
+Distance: 5229
+
+Checking point (8802,11401)
+Distance: 4804
+
+Checking point (10392,11603)
+Distance: 3012
+
+Checking point (10742,11603)
+Distance: 2662
+
+Checking point (9489,11801)
+Distance: 3717
+
+Checking point (9501,11801)
+Distance: 3705
+
+Checking point (9581,11801)
+Distance: 3625
+
+Checking point (9873,11801)
+Distance: 3333
+
+Checking point (10676,11825)
+Distance: 2506
+
+Checking point (8802,11833)
+Distance: 4372
+
+Checking point (9193,11833)
+Distance: 3981
+
+Checking point (9489,11833)
+Distance: 3685
+
+Checking point (9501,11833)
+Distance: 3673
+
+Checking point (9193,11839)
+Distance: 3975
+
+Checking point (9489,11839)
+Distance: 3679
+
+Checking point (9501,11839)
+Distance: 3667
+
+Checking point (13807,11873)
+Distance: 1375
+
+Checking point (13821,11873)
+Distance: 1389
+
+Checking point (9489,11875)
+Distance: 3643
+
+Checking point (9501,11875)
+Distance: 3631
+
+Checking point (8592,11942)
+Distance: 4473
+
+Checking point (8802,11942)
+Distance: 4263
+
+Checking point (8968,11942)
+Distance: 4097
+
+Checking point (10047,11947)
+Distance: 3013
+
+Checking point (10086,11947)
+Distance: 2974
+
+Checking point (13938,12021)
+Distance: 1358
+
+Checking point (9489,12107)
+Distance: 3411
+
+Checking point (9501,12107)
+Distance: 3399
+
+Checking point (9576,12107)
+Distance: 3324
+
+Checking point (8968,12133)
+Distance: 3906
+
+Checking point (9489,12133)
+Distance: 3385
+
+Checking point (9501,12133)
+Distance: 3373
+
+Checking point (9576,12133)
+Distance: 3298
+
+Checking point (9585,12133)
+Distance: 3289
+
+Checking point (7705,12137)
+Distance: 5165
+
+Checking point (9489,12230)
+Distance: 3300
+
+Checking point (9501,12230)
+Distance: 3288
+
+Checking point (9506,12230)
+Distance: 3283
+
+Checking point (9585,12230)
+Distance: 3204
+
+Checking point (9667,12230)
+Distance: 3122
+
+Checking point (9842,12230)
+Distance: 2947
+
+Checking point (9026,12363)
+Distance: 3896
+
+Checking point (9489,12363)
+Distance: 3433
+
+Checking point (9501,12363)
+Distance: 3421
+
+Checking point (9585,12378)
+Distance: 3352
+
+Checking point (13938,12402)
+Distance: 1333
+
+Checking point (9585,12615)
+Distance: 3589
+
+Checking point (9842,12615)
+Distance: 3332
+
+Checking point (9972,12615)
+Distance: 3202
+
+Checking point (9026,12724)
+Distance: 4257
+
+Checking point (8970,12740)
+Distance: 4329
+
+Checking point (9026,12740)
+Distance: 4273
+
+Checking point (9257,12740)
+Distance: 4042
+
+Checking point (8592,12808)
+Distance: 4775
+
+Checking point (8970,12809)
+Distance: 4398
+
+Checking point (9026,12809)
+Distance: 4342
+
+Checking point (9257,12809)
+Distance: 4111
+
+Checking point (9404,12809)
+Distance: 3964
+
+Checking point (9257,13164)
+Distance: 4466
+
+Checking point (9404,13164)
+Distance: 4319
+
+Checking point (14251,13173)
+Distance: 2417
+
+Checking point (8970,13380)
+Distance: 4969
+
+Checking point (7566,14008)
+Distance: 7001
+
+Checking point (7237,14247)
+Distance: 7569
+
+Checking point (7566,14247)
+Distance: 7240
+
+Checking point (7811,14412)
+Distance: 7160
+
+Checking point (7953,14676)
+Distance: 7282
+
+Checking point (7971,14863)
+Distance: 7451
+
+Checking point (8442,14863)
+Distance: 6980
+
+Checking point (7229,14905)
+Distance: 8235
+
+Checking point (7072,15209)
+Distance: 8696
+
+Checking point (7229,15209)
+Distance: 8539
+
+Checking point (7028,15223)
+Distance: 8754
+
+Checking point (7072,15223)
+Distance: 8710
+
+Checking point (7229,15223)
+Distance: 8553
+
+Checking point (7297,15223)
+Distance: 8485
+
+Checking point (6908,15275)
+Distance: 8926
+
+Checking point (6615,15374)
+Distance: 9318
+
+Checking point (6908,15374)
+Distance: 9025
+
+Checking point (7072,15374)
+Distance: 8861
+
+Checking point (7229,15374)
+Distance: 8704
+
+Checking point (7295,15418)
+Distance: 8682
+
+Checking point (7297,15418)
+Distance: 8680
+
+Checking point (7376,15418)
+Distance: 8601
+
+Checking point (7295,15490)
+Distance: 8754
+
+Checking point (7297,15490)
+Distance: 8752
+
+Checking point (7376,15490)
+Distance: 8673
+
+Checking point (7577,15490)
+Distance: 8472
+
+Checking point (7589,15490)
+Distance: 8460
+
+Checking point (7589,15592)
+Distance: 8562
+
+Checking point (7297,15695)
+Distance: 8957
+
+Checking point (7376,15695)
+Distance: 8878
+
+Checking point (7090,15722)
+Distance: 9191
+
+Checking point (7297,15722)
+Distance: 8984
+
+Checking point (7376,15722)
+Distance: 8905
+
+Checking point (7090,15730)
+Distance: 9199
+
+Checking point (7297,15730)
+Distance: 8992
+
+Checking point (7376,15730)
+Distance: 8913
+
+Checking point (7485,15730)
+Distance: 8804
+
+Checking point (7485,15741)
+Distance: 8815
+
+Checking point (7485,15959)
+Distance: 9033
+
+Min distance: 1333
+Distances: [1333,1358,1375,1389,2417,2445,2506,2579,2590,2662,2808,2860,2871,2947,2974,3012,3013,3072,3089,3112,3122,3202,3204,3283,3288,3289,3298,3300,3301,3324,3332,3333,3352,3373,3385,3399,3411,3421,3433,3435,3589,3625,3631,3643,3667,3673,3679,3685,3705,3717,3880,3896,3906,3939,3944,3964,3966,3975,3981,4008,4042,4092,4097,4111,4257,4263,4273,4319,4329,4342,4367,4372,4395,4398,4449,4466,4473,4565,4599,4670,4752,4775,4804,4881,4969,4981,5099,5165,5198,5229,5288,5305,5324,5400,5486,5490,5573,5969,6109,6116,6119,6170,6278,6307,6352,6366,6416,6432,6600,6980,7001,7141,7160,7233,7240,7254,7262,7282,7297,7451,7535,7569,7756,7803,7869,8028,8056,8164,8175,8235,8257,8273,8294,8299,8324,8348,8460,8472,8485,8499,8513,8539,8553,8562,8590,8601,8663,8673,8680,8681,8682,8696,8704,8707,8710,8752,8754,8754,8788,8790,8804,8813,8815,8842,8861,8864,8878,8896,8905,8913,8914,8926,8951,8953,8957,8968,8969,8971,8984,8992,8995,9005,9010,9025,9025,9025,9031,9033,9064,9078,9124,9130,9148,9159,9191,9199,9230,9253,9301,9318,9407,9424,9448,9455,9516,9632,9882,9886,10380,10723,11030,11118,11201,11318,12161,14643,14789,14960,15032,15067,15110,15209,15469,15558,15762,16230,16284,16481,16547,16744,16971,17123,17427,17581,17664,17892,17921,18545,19343,19927,21290,21428,21669,21898,21928,22043,22049,22072,22098,22123,22426,22445,22525,22595,22675,22717,22844,22947,23589,23759,23837,23870,24558]
