@@ -1,3 +1,5 @@
+require 'json'
+
 filename = ARGV[0]
 
 inputFile = File.open(filename, "r")
@@ -23,7 +25,7 @@ u_max = 0
 d_max = 0
 
 def parse_vector(vector_str)
-  vector_hash = vector.match /(?<direction>\w)(?<distance>\d+)/
+  vector_hash = vector_str.match /(?<direction>\w)(?<distance>\d+)/
 
   distance = vector_hash[:distance].to_i
   direction = vector_hash[:direction]
@@ -48,20 +50,20 @@ def update_dimension(vector)
   width_diff = 0
   height_diff = 0
 
-  if vector_hash[:direction].downcase == 'r'
+  if direction.downcase == 'r'
     width_diff = distance
 
-  elsif vector_hash[:direction].downcase == 'l'
+  elsif direction.downcase == 'l'
     width_diff = distance * -1
 
-  elsif vector_hash[:direction].downcase == 'u'
+  elsif direction.downcase == 'u'
     height_diff = distance
 
-  elsif vector_hash[:direction].downcase == 'd'
+  elsif direction.downcase == 'd'
     height_diff = distance * -1
 
   else
-    puts "Unexpected direction: #{vector_hash[:direction]}"
+    puts "Unexpected direction: #{direction}"
     return [0,0]
   end
 
@@ -128,51 +130,123 @@ end
 #   - y is the absolute value of right max
 
 origin = {
-  :x => l_max.abs,
-  :y => r_max.abs
+  :x => l_max.abs - 1,
+  :y => u_max.abs - 1
 }
 
-def draw_line_x(grid, curr_location, dist)
-  # Point (x,y) = Arr[ origion[:x] + x + x_max * (origin[:y] + y) ]
-  (curr_location..curr_location + dist).each do |x|
-    #TODO: Need to pass both coordinates to this method
-  end
-end
+puts "Origin: (#{origin[:x]},#{origin[:y]})"
+puts ""
 
-def draw_line_y(grid, curr_location, dist)
-  # Point (x,y) = Arr[ origion[:x] + x + x_max * (origin[:y] + y) ]
-end
-
-def draw_line(line, grid, curr_location)
-  distance, direction = parse_vector(line)
-
-  x = curr_location[:x]
+def draw_line_x(grid, curr_location, dist, x_max)
+  start_x = curr_location[:x]
   y = curr_location[:y]
 
+  (start_x..start_x + dist).each do |x|
+
+    # Point (x,y) = Arr[ origion[:x] + x + x_max * (origin[:y] + y) ]
+    idx = x + x_max * y
+    puts "x: #{x}, x_max: #{x_max}, y: #{y}"
+    puts "plotting at: #{idx}"
+    grid[idx] += 1
+
+  end
+
+  grid
+end
+
+def draw_line_y(grid, curr_location, dist, x_max)
+  x = curr_location[:x]
+  start_y = curr_location[:y]
+
+  (start_y..start_y + dist).each do |y|
+
+    # Point (x,y) = Arr[ origion[:x] + x + x_max * (origin[:y] + y) ]
+    idx = x + x_max * y
+    puts "x: #{x}, x_max: #{x_max}, y: #{y}"
+    puts "plotting at: #{idx}"
+    grid[idx] += 1
+
+  end
+
+  grid
+end
+
+def draw_line(line, grid, curr_location, origin, x_max)
+  distance, direction = parse_vector(line)
+
+  x = curr_location[:x] + origin[:x]
+  y = curr_location[:y]
+
+  start = {
+    :x => x,
+    :y => y
+  }
+
   case direction.downcase
-  when 'r':
+  when 'r' then
     puts "Drawing line to right from #{x} to #{x + distance}"
-    grid = draw_line_x(grid, x, distance)
 
-  when 'l':
-    puts "Drawing line to left from #{x - distance} to #{x}"
-    grid = draw_line_x(grid, x - distance, distance)
+    grid = draw_line_x(grid, start, distance, x_max)
 
-  when 'u':
-    puts "Drawing line up from #{y - distance} to #{y}"
-    grid = draw_line_y(grid, y - distance, distance)
+    curr_location = {
+      :x => start[:x] + distance,
+      :y => start[:y]
+    }
 
-  when 'd':
+  when 'l' then
+    start[:x] = x - distance
+
+    puts "Drawing line to left from #{start[:x]} to #{start[:x] + distance}"
+
+    grid = draw_line_x(grid, start, distance, x_max)
+
+    curr_location = {
+      :x => start[:x] + distance,
+      :y => start[:y]
+    }
+
+  when 'u' then
+    start[:y] = y + distance
+
+    puts "Drawing line up from #{start[:y]} to #{start[:y] + distance}"
+
+    grid = draw_line_y(grid, start, distance, x_max)
+
+    curr_location = {
+      :x => start[:x],
+      :y => start[:y] + distance
+    }
+
+  when 'd' then
     puts "Drawing line down from #{y} to #{y + distance}"
-    grid = draw_line_y(grid, y, distance)
+
+    grid = draw_line_y(grid, start, distance, x_max)
+
+    curr_location = {
+      :x => start[:x],
+      :y => start[:y] + distance
+    }
 
   else
     puts "Invalid line direction"
     return
   end
 
-  grid
+  [grid, curr_location]
 end
 
-
 puts "Max - Right: #{r_max}, Left: #{l_max}, Up: #{u_max}, Down: #{d_max}"
+
+puts "Grid before:"
+puts grid.to_json
+puts ""
+
+curr_location = origin
+
+wire_one.each do |point|
+  grid, curr_location = draw_line(point, grid, curr_location, origin, x_max)
+end
+
+puts "Grid after:"
+puts grid.to_json
+puts ""
