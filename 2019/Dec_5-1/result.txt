@@ -1,0 +1,529 @@
+Running intcode program
+Array: [3, 225, 1, 225, 6, 6, 1100, 1, 238, 225, 104, 0, 1102, 79, 14, 225, 1101, 17, 42, 225, 2, 74, 69, 224, 1001, 224, -5733, 224, 4, 224, 1002, 223, 8, 223, 101, 4, 224, 224, 1, 223, 224, 223, 1002, 191, 83, 224, 1001, 224, -2407, 224, 4, 224, 102, 8, 223, 223, 101, 2, 224, 224, 1, 223, 224, 223, 1101, 18, 64, 225, 1102, 63, 22, 225, 1101, 31, 91, 225, 1001, 65, 26, 224, 101, -44, 224, 224, 4, 224, 102, 8, 223, 223, 101, 3, 224, 224, 1, 224, 223, 223, 101, 78, 13, 224, 101, -157, 224, 224, 4, 224, 1002, 223, 8, 223, 1001, 224, 3, 224, 1, 224, 223, 223, 102, 87, 187, 224, 101, -4698, 224, 224, 4, 224, 102, 8, 223, 223, 1001, 224, 4, 224, 1, 223, 224, 223, 1102, 79, 85, 224, 101, -6715, 224, 224, 4, 224, 1002, 223, 8, 223, 1001, 224, 2, 224, 1, 224, 223, 223, 1101, 43, 46, 224, 101, -89, 224, 224, 4, 224, 1002, 223, 8, 223, 101, 1, 224, 224, 1, 223, 224, 223, 1101, 54, 12, 225, 1102, 29, 54, 225, 1, 17, 217, 224, 101, -37, 224, 224, 4, 224, 102, 8, 223, 223, 1001, 224, 3, 224, 1, 223, 224, 223, 1102, 20, 53, 225, 4, 223, 99, 0, 0, 0, 677, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1105, 0, 99999, 1105, 227, 247, 1105, 1, 99999, 1005, 227, 99999, 1005, 0, 256, 1105, 1, 99999, 1106, 227, 99999, 1106, 0, 265, 1105, 1, 99999, 1006, 0, 99999, 1006, 227, 274, 1105, 1, 99999, 1105, 1, 280, 1105, 1, 99999, 1, 225, 225, 225, 1101, 294, 0, 0, 105, 1, 0, 1105, 1, 99999, 1106, 0, 300, 1105, 1, 99999, 1, 225, 225, 225, 1101, 314, 0, 0, 106, 0, 0, 1105, 1, 99999, 107, 226, 226, 224, 1002, 223, 2, 223, 1006, 224, 329, 101, 1, 223, 223, 1108, 677, 226, 224, 1002, 223, 2, 223, 1006, 224, 344, 101, 1, 223, 223, 7, 677, 226, 224, 102, 2, 223, 223, 1006, 224, 359, 101, 1, 223, 223, 108, 226, 226, 224, 1002, 223, 2, 223, 1005, 224, 374, 101, 1, 223, 223, 8, 226, 677, 224, 1002, 223, 2, 223, 1006, 224, 389, 101, 1, 223, 223, 1108, 226, 226, 224, 102, 2, 223, 223, 1006, 224, 404, 101, 1, 223, 223, 1007, 677, 677, 224, 1002, 223, 2, 223, 1006, 224, 419, 101, 1, 223, 223, 8, 677, 677, 224, 1002, 223, 2, 223, 1005, 224, 434, 1001, 223, 1, 223, 1008, 226, 226, 224, 102, 2, 223, 223, 1005, 224, 449, 1001, 223, 1, 223, 1008, 226, 677, 224, 102, 2, 223, 223, 1006, 224, 464, 101, 1, 223, 223, 1107, 677, 677, 224, 102, 2, 223, 223, 1006, 224, 479, 101, 1, 223, 223, 107, 677, 677, 224, 1002, 223, 2, 223, 1005, 224, 494, 1001, 223, 1, 223, 1107, 226, 677, 224, 1002, 223, 2, 223, 1005, 224, 509, 101, 1, 223, 223, 1108, 226, 677, 224, 102, 2, 223, 223, 1006, 224, 524, 101, 1, 223, 223, 7, 226, 226, 224, 1002, 223, 2, 223, 1005, 224, 539, 101, 1, 223, 223, 108, 677, 677, 224, 1002, 223, 2, 223, 1005, 224, 554, 101, 1, 223, 223, 8, 677, 226, 224, 1002, 223, 2, 223, 1005, 224, 569, 1001, 223, 1, 223, 1008, 677, 677, 224, 102, 2, 223, 223, 1006, 224, 584, 101, 1, 223, 223, 107, 226, 677, 224, 102, 2, 223, 223, 1005, 224, 599, 1001, 223, 1, 223, 7, 226, 677, 224, 102, 2, 223, 223, 1005, 224, 614, 101, 1, 223, 223, 1007, 226, 226, 224, 1002, 223, 2, 223, 1005, 224, 629, 101, 1, 223, 223, 1107, 677, 226, 224, 1002, 223, 2, 223, 1006, 224, 644, 101, 1, 223, 223, 108, 226, 677, 224, 102, 2, 223, 223, 1006, 224, 659, 101, 1, 223, 223, 1007, 677, 226, 224, 102, 2, 223, 223, 1006, 224, 674, 101, 1, 223, 223, 4, 223, 99, 226], length: 678
+Op code: 3
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+Provide ID of system to test: 
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 225
+Val: 1
+Using value at position: 6
+Val: 1100
+Performing add operation (1 + 1100 = 1101) and storing at position: 6
+Op code: 1
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 1
+Val: 238
+Performing add operation (1 + 238 = 239) and storing at position: 225
+Op code: 4
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 3***
+Op code: 2
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 79
+Val: 14
+Performing multiplication operation (79 * 14 = 1106) and storing at position: 225
+Op code: 1
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 17
+Val: 42
+Performing add operation (17 + 42 = 59) and storing at position: 225
+Op code: 2
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 74
+Val: 91
+Using value at position: 69
+Val: 63
+Performing multiplication operation (91 * 63 = 5733) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 5733
+Val: -5733
+Performing add operation (5733 + -5733 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 0
+Val: 8
+Performing multiplication operation (0 * 8 = 0) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 4
+Using value at position: 224
+Val: 0
+Performing add operation (4 + 0 = 4) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 0
+Using value at position: 224
+Val: 4
+Performing add operation (0 + 4 = 4) and storing at position: 223
+Op code: 2
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 191
+Val: 29
+Val: 83
+Performing multiplication operation (29 * 83 = 2407) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 2407
+Val: -2407
+Performing add operation (2407 + -2407 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 8
+Using value at position: 223
+Val: 4
+Performing multiplication operation (8 * 4 = 32) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 2
+Using value at position: 224
+Val: 0
+Performing add operation (2 + 0 = 2) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 32
+Using value at position: 224
+Val: 2
+Performing add operation (32 + 2 = 34) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 18
+Val: 64
+Performing add operation (18 + 64 = 82) and storing at position: 225
+Op code: 2
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 63
+Val: 22
+Performing multiplication operation (63 * 22 = 1386) and storing at position: 225
+Op code: 1
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 31
+Val: 91
+Performing add operation (31 + 91 = 122) and storing at position: 225
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 65
+Val: 18
+Val: 26
+Performing add operation (18 + 26 = 44) and storing at position: 224
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: -44
+Using value at position: 224
+Val: 44
+Performing add operation (-44 + 44 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 8
+Using value at position: 223
+Val: 34
+Performing multiplication operation (8 * 34 = 272) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 3
+Using value at position: 224
+Val: 0
+Performing add operation (3 + 0 = 3) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 3
+Using value at position: 223
+Val: 272
+Performing add operation (3 + 272 = 275) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 78
+Using value at position: 13
+Val: 79
+Performing add operation (78 + 79 = 157) and storing at position: 224
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: -157
+Using value at position: 224
+Val: 157
+Performing add operation (-157 + 157 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 275
+Val: 8
+Performing multiplication operation (275 * 8 = 2200) and storing at position: 223
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 0
+Val: 3
+Performing add operation (0 + 3 = 3) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 3
+Using value at position: 223
+Val: 2200
+Performing add operation (3 + 2200 = 2203) and storing at position: 223
+Op code: 2
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 87
+Using value at position: 187
+Val: 54
+Performing multiplication operation (87 * 54 = 4698) and storing at position: 224
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: -4698
+Using value at position: 224
+Val: 4698
+Performing add operation (-4698 + 4698 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 8
+Using value at position: 223
+Val: 2203
+Performing multiplication operation (8 * 2203 = 17624) and storing at position: 223
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 0
+Val: 4
+Performing add operation (0 + 4 = 4) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 17624
+Using value at position: 224
+Val: 4
+Performing add operation (17624 + 4 = 17628) and storing at position: 223
+Op code: 2
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 79
+Val: 85
+Performing multiplication operation (79 * 85 = 6715) and storing at position: 224
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: -6715
+Using value at position: 224
+Val: 6715
+Performing add operation (-6715 + 6715 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 17628
+Val: 8
+Performing multiplication operation (17628 * 8 = 141024) and storing at position: 223
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 0
+Val: 2
+Performing add operation (0 + 2 = 2) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 2
+Using value at position: 223
+Val: 141024
+Performing add operation (2 + 141024 = 141026) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 43
+Val: 46
+Performing add operation (43 + 46 = 89) and storing at position: 224
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: -89
+Using value at position: 224
+Val: 89
+Performing add operation (-89 + 89 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 141026
+Val: 8
+Performing multiplication operation (141026 * 8 = 1128208) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 1
+Using value at position: 224
+Val: 0
+Performing add operation (1 + 0 = 1) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 1128208
+Using value at position: 224
+Val: 1
+Performing add operation (1128208 + 1 = 1128209) and storing at position: 223
+Op code: 1
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 54
+Val: 12
+Performing add operation (54 + 12 = 66) and storing at position: 225
+Op code: 2
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 29
+Val: 54
+Performing multiplication operation (29 * 54 = 1566) and storing at position: 225
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 17
+Val: 17
+Using value at position: 217
+Val: 20
+Performing add operation (17 + 20 = 37) and storing at position: 224
+Op code: 1
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: -37
+Using value at position: 224
+Val: 37
+Performing add operation (-37 + 37 = 0) and storing at position: 224
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 0***
+Op code: 2
+Param one mode: 1
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Val: 8
+Using value at position: 223
+Val: 1128209
+Performing multiplication operation (8 * 1128209 = 9025672) and storing at position: 223
+Op code: 1
+Param one mode: 0
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Using value at position: 224
+Val: 0
+Val: 3
+Performing add operation (0 + 3 = 3) and storing at position: 224
+Op code: 1
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 4
+Using value at position: 223
+Val: 9025672
+Using value at position: 224
+Val: 3
+Performing add operation (9025672 + 3 = 9025675) and storing at position: 223
+Op code: 2
+Param one mode: 1
+Param two mode: 1
+Param three mode: 0
+Jump: 4
+Val: 20
+Val: 53
+Performing multiplication operation (20 * 53 = 1060) and storing at position: 225
+Op code: 4
+Param one mode: 0
+Param two mode: 0
+Param three mode: 0
+Jump: 2
+
+*** TEST DIFF = 9025675***
+Halt instruction encountered. Exiting...
